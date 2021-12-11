@@ -1,5 +1,5 @@
-export function phonebook(req, res) {
-    const phones = [
+exports.phones =  [
+
         {
             id: 1,
             name: "Arto Hellas",
@@ -20,8 +20,5 @@ export function phonebook(req, res) {
             name: "Mary Poppendik",
             number: "040-123456"
         }
-    ];
+];
 
-
-    res.json(phones);
-}
